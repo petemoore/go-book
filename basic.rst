@@ -85,7 +85,7 @@ one of the values: ``true`` or ``false``.
     func test(){
         var available bool //general form
         valid := false //type and var omitted, and variable initialized
-        available = true //normal assignation
+        available = true //normal assignment
     }
 
 
@@ -158,7 +158,7 @@ From the `Go Programming Language Specification`_
         var pi float32 //basic form
         one, two, three := 1, 2, 3 //type and var omitted, variables initialized
         c := 10+3i // a complex number, type infered and keyword 'var' omitted.
-        pi = 3.14 // normal assignation
+        pi = 3.14 // normal assignment
     }
 
 Strings
@@ -175,7 +175,7 @@ between two double quotes (") and their type is -you bet!- ``string``.
     func test(){
         no, yes, maybe := "no", "yes", "maybe" //var and type omitted
         japanese_hello := "Ohaiou"  //type inferred, var keyword omitted
-        french_hello = "Bonjour" //normal assignation
+        french_hello = "Bonjour" //normal assignment
     }
 
 Constants

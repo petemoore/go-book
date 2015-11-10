@@ -5,7 +5,7 @@ If you're not a programmer
 This chapter is for people who have never written a single program in an
 imperative programming language. If you are used to languages likes C, C++, Python, Perl,
 Ruby or if you know what the words variable, constant, type,
-instruction, assignation mean you may (No! You SHOULD!) skip this section entirely.
+instruction, assignment mean you may (No! You SHOULD!) skip this section entirely.
 
 
 How do programs work?
@@ -39,10 +39,10 @@ of a given type.
 
 Think of them as boxes labeled with *identifiers* that store values.
 
-What is assignation?
+What is assignment?
 ====================
 We assign a value to a variable to say that this variable is *equal* to this
-value from the assignation act on, until another assignation changes its value.
+value from the assignment act on, until another assignment changes its value.
 
 .. code-block:: go
     :linenos:
@@ -53,7 +53,7 @@ value from the assignation act on, until another assignation changes its value.
     x = x + 3 //now, we assign to x its value plus 3
     //so now, x == 8
 
-Assignation is the act of *storing* values inside variables. In the previous
+Assignment is the act of *storing* values inside variables. In the previous
 snippet, we assigned the value ``5`` to the variable whose identifier is ``x``
 (we say simply the variable ``x``) and just after, we assigned to the variable
 ``x`` its own value (``5`` is what we assigned to it in the previous
@@ -111,7 +111,7 @@ We *declare* a constant with a given value.
 
 For example, we can declare the constant ``Pi`` to be equal to ``3.14``. During
 the execution of the program, the value of ``Pi`` won't and can not be changed.
-There is no assignation of values to constants.
+There is no assignment of values to constants.
 
 Constants are useful to make programs easy to read and to maintain. In effect,
 writing ``Pi`` instead of the floating point number ``3.14`` in many spots of
